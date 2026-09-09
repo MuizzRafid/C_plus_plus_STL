@@ -5,11 +5,13 @@ int main(){
 	std::vector<int> v(4,2);
 v.push_back(7);
 v.push_back(8);
-v.pop_back();//O(1)
-v.erase(v.begin()+2);//O(n)
+v.push_back(4);
+v.push_back(5);
+v.pop_back();//O(1) //8 is gone
+v.erase(v.begin()+4);//O(n)  //v.begin()=0 +4 =4 =>delete v[4] which was 7
 vector <int> w2={3,4,9,0,4,2};
 
-
+cout<<"v is : "<<endl;
 	for (int i = 0; i < v.size(); ++i)
 	{
 		cout<<v[i]<<" ";
@@ -50,19 +52,21 @@ cout<<endl<<endl;
      for (auto i= w2.begin(); i !=w2.end(); ++i)
      {
      	cout<<*i<<" ";
-     	     }
-     	     cout<<endl<<endl;
+     }
+     cout<<endl<<endl;
 
 
                 // SORT
 
 
-     	    sort(w2.begin(), w2.end(),greater<int>());
+     sort(w2.begin(), w2.end(),greater<int>());
+
+     cout<<"after w2 sorted"<<endl;
 
       for (auto i= w2.begin(); i !=w2.end(); ++i)
      {
      	cout<<*i<<" ";
-     	     }
+     }
 
 
      	        //SEARCH

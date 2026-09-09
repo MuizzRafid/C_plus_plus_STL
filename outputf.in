@@ -1,3 +1,16 @@
-julie
-simbah
-3.8
+v is : 
+2 2 2 2 8 4 
+
+capacity is w2 6
+capacity of v 8
+size of v 6
+size of v now 0
+capacity of v now 8
+capacity of w2 now 12
+empty 1
+front w2 3
+back w2 32
+3 4 9 0 4 2 32 
+
+after w2 sorted
+32 9 4 4 3 2 0 
