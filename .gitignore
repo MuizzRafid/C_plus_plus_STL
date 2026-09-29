@@ -1,3 +1,4 @@
 *.exe
 inputf.in
 outputf.in
+algorithms.cpp
