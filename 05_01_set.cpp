@@ -26,3 +26,24 @@ int main(){
 	print(s);
 }
 #endif 
+//QUESTION: Given N string,print unique string in lexiographic order N<=10^5 |5|<=100000
+#if 0
+void print(set<string> &s){
+for(string value:s){
+	cout<<value<<endl;
+}
+}
+
+int main(){
+int n;
+cin>>n;
+set<string> s;
+for (int i = 0; i < n; ++i)
+{
+string str;
+cin>>str;
+s.insert(str);
+}
+print(s);
+}
+#endif
