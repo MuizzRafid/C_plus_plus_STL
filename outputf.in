@@ -1,8 +1,11 @@
-abc
-bcd
-cde
-cde
-1
-2
-3
-4
+1 address of &a := 0x54065ff7ac
+2 address of &add : 0x54065ff7a0
+3 address add stored := 0x54065ff7ac
+4 address of &ptr := 0x54065ff798
+5 address stored in ptr := 0x54065ff7a0
+6 address of add or *prt pointing to := 0x54065ff7ac
+7 address of ptrUltra 0x54065ff790
+8  0x54065ff798
+9 *ptrUltra or pointing to :=0x54065ff7a0
+10 **ptrUltra or pointing to :=0x54065ff7ac
+11 ***ptrUltra or pointing to :=4321
