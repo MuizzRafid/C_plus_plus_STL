@@ -33,4 +33,8 @@ int longestConsecutive(vector<int>& nums) {
 
     return maxCount;
 }
+
+int main(){
+    longestConsecutive(nums)
+}
 #endif
