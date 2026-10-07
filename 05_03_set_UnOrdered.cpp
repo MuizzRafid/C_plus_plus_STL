@@ -6,6 +6,17 @@
                             //but in set it takes O(logn) //and duplicate is not allowed
 //set = unique + ordered
 //unordered_set = unique + fast average lookup
+//unordered_set<string> has average O(1) bucket lookup, but hashing the string itself can take
+// O(k) where k is the string length.
+
+// unordered_set<int>
+//     average → O(1)
+//     worst   → O(n)
+
+// unordered_set<string>
+//     average → O(k) hashing/comparison-related work
+//     worst   → O(n × k) in a rough model
+
 #if 0
 int main(){                     
 	unordered_set<string> s;//O(Log(1))
